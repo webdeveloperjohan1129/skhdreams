@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans;
+}
+.menuContainer {
+  padding: 20px;
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+justify-content: space-between;
+align-items: center;
+background-color: lightgray;
+clear: both;
+}
+.logoSection img {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  padding: 20px;
+
+}
+.arti-image {
+  width: 450px;
+  padding: 10px 5px 1px 10px;
+  float:left;
+}
+.arti {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 1.60;
+  text-align: justify;
+}
+.imageSection img {
+padding: 20px 5px 5px 20px;
+width: 30%;
+display: block;
+}
+
+figcaption {
+  display: block;
+  font-size: 15px;
+  font-style: italic;
+  font-family: serif;
+  margin-left: 20px;
+
+}
+.Directora {
+  font-size: 25px;
+
+}
+.Director {
+  font-size: 25px;
+
+}
+.encabezado {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+.videoSection {
+  padding: 20px;
+  font-size: 25px;
+  display: flex;
+
+}
+.lema {
+  margin-top: 90px;
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  vertical-align: center;
+  font-style: italic;
+  font-weight: bolder;
+}
+video {
+  border: solid;
+}
+a:hover {
+  color: white;
+  background-color: grey;
+}
+nav a {
+  display: block;
+  float: right;
+text-align: center;
+  padding: 20px;
+  margin-right: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  font-size: 15px;
+}
+a:active {
+  color: red;
+  background-color: white;
+}
+.menuItem {
+  display: block;
+  text-align: center;
+  background-color: lightgray;
+  font-size: 25px;
+}
